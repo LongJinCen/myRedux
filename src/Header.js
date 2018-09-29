@@ -10,14 +10,14 @@ class Header extends Component {
   }
 }
 
+Header.propTypes = {
+  themeColor: PropTypes.string
+}
+
 const mapStateToProps = (state) => {
   return {
     themeColor: state.themeColor
   }
-}
-
-Header.propTypes = {
-  themeColor: PropTypes.string
 }
 
 export default connect(mapStateToProps)(Header)

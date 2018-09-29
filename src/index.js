@@ -20,6 +20,7 @@ const themeReducer = (state, action) => {
 const store = createStore(themeReducer)
 
 class Index extends Component {
+
   getChildContext () {
     return { store }
   }
@@ -33,6 +34,7 @@ class Index extends Component {
     )
   }
 }
+
 Index.childContextTypes  = {
   store: PropTypes.object
 }
