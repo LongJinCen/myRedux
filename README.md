@@ -1,3 +1,8 @@
+![xx](https://img.shields.io/github/issues/LongJinCen/myRedux.svg)
+![xx](https://img.shields.io/github/forks/LongJinCen/myRedux.svg)
+![xx](https://img.shields.io/github/stars/LongJinCen/myRedux.svg)
+![xx](https://img.shields.io/github/license/LongJinCen/myRedux.svg)
+
 # MyRedux
 
 这里简单的封装了`redux`的`createStore`与`react-redux`的`connect`, 他们的源码在`src/lib`下可以找到。给了一个简单的例子，例子是所有子组件共享父组件中或者是外部`store`中的`state`中的主题颜色，并实现点击按钮切换主题颜色。下面会分别介绍两个库
